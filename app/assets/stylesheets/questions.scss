@@ -1,0 +1,51 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  text-align: left;
+}
+
+.btn {
+width: 100%;
+}
+
+input[type="submit" i] {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0 5px 5px 0;
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+    padding: 12px 10px;
+    margin-left: -0px;
+
+}
+input[type="text" i] {
+  padding: 12px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 400px;
+}
+
